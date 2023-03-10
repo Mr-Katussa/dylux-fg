@@ -1,17 +1,23 @@
 
 let handler = async(m, { conn, usedPrefix, command }) => {
 
-    let don = `
-≡ *DONACION*
-puedes donar si quieres ayudar a mantener el bot activo
+    let don = `┏ ┅ ━━━━━━━━━ ┅ ➔
+┇        *⫹⫺ DONATE ⫹⫺*
+┣ ┅ ━━━━━━━━━ ┅ ➔
+┃
+┃  ↪️ *Fᴏʟʟᴏᴡ ᴍᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs*
+┃ 
+┃ 📽️ Yᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 📽️
+┃ 
+┃  *youtube.com/@SANDARU-YT*
+┃ 
+┃ 📟 Cᴏɴᴛᴀᴄᴛ Mᴇ ᴏɴ Wʜᴀᴛsᴀᴘᴘ 📟
+┃
+┃   *http://wa.me/15517868003*
+┃
+┃🔰 *ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ xᴄᴏᴄᴏ*🔰
 
-▢ *PayPal*
-• *Link :* https://paypal.me/fg98f
-
-▢ *Mercado Pago Arg*
-• *Alias :* fg98ff
-• *N° :* 2622271736
-`
+┗ ┅ ━━━━━━━━━ ┅ ━➔`
 let img = 'https://i.ibb.co/37FP2bk/donate.jpg'
 conn.sendButton(m.chat, don, 'Haga click en boton si quiere comprar o alquilar al bot', img, [['Buy Premium', `${usedPrefix}buyprem`]],m, rpyp)
 }
