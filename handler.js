@@ -559,7 +559,7 @@ export async function deleteUpdate(message) {
         await this.reply(msg.chat, `
 ≡ Borró un mensaje  
 ┌─⊷  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 
-▢ *Nombre :* @${participant.split`@`[0]} 
+▢ *Number :* @${participant.split`@`[0]} 
 └─────────────
 
 Para desactivar esta función, escriba 
@@ -582,7 +582,7 @@ global.dfail = (type, m, conn) => {
         premium: '💠 Este comando es solo para miembros *Premium*\n\nEscribe */premium* para más info',
         group: '⚙️ ¡Este comando solo se puede usar en grupos!',
         private: '📮 Este comando solo se puede usar en el chat *privado del Bot*',
-        admin: '🛡️ Este comando es solo para *Admins* del grupo',
+        admin: 'ONLY ADMINS',
         botAdmin: '💥 ¡Para usar este comando debo ser *Administrador!*',
         unreg: '📇 Regístrese para usar esta función  Escribiendo:\n\n*/reg nombre.edad*\n\n📌Ejemplo : */reg dylux.16*',
         restrict: '🔐 Esta característica está *deshabilitada*'
