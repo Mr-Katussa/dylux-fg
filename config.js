@@ -27,7 +27,7 @@ global.APIKeys = { // APIKey Here
 // Sticker WM
 global.packname = 'Xcoco' 
 global.author = '@Sandaru' 
-global.fgig = '▢\nhttps://www.instagram.com/fg98_ff\n' 
+global.fgig = 'XCOCO MD' 
 global.dygp = 'https://chat.whatsapp.com/'
 global.fgsc = 'https://github.com/' 
 global.fgyt = 'https://youtube.com/SANDARU-YT'
