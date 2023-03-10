@@ -6,8 +6,8 @@ let handler = async (m, { conn, args, usedPrefix, command, isOwner, isPrems }) =
 	var limit
      if((isOwner || isPrems)) limit = 500
      else limit = 100
-   if (!args[0]) throw `✳️ Ingrese el link de mediafire junto al comando`
-    if (!args[0].match(/mediafire/gi)) throw `❎ Link incorrecto`
+   if (!args[0]) throw `Where Is The Mediafire Link`
+    if (!args[0].match(/mediafire/gi)) throw `Sorry Link Incorrect`
     m.react(rwait)
     let full = /f$/i.test(command)
     let u = /https?:\/\//.test(args[0]) ? args[0] : 'https://' + args[0]
@@ -17,8 +17,8 @@ let handler = async (m, { conn, args, usedPrefix, command, isOwner, isPrems }) =
     let isLimit = (isPrems || isOwner ? limit : limit) * 1012 < filesize
     let caption = `
    ≡ *MEDIAFIRE*
-▢ *Nombre:* ${filename}
-▢ *Tamaño:* ${filesizeH}
+▢ *Name:* ${filename}
+▢ *Size:* ${filesizeH}
 ▢ *Extension:* ${ext}
 ▢ *Subido:* ${aploud}
 ${isLimit ? `\n▢ El archivo supera el límite de descarga *+${limit} MB*\nPásate a premium para poder descargar archivos más de *900 MB*` : ''} 
