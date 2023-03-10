@@ -18,8 +18,8 @@ let handler = async(m, { conn, usedPrefix, command }) => {
 ┃🔰 *ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ xᴄᴏᴄᴏ*🔰
 
 ┗ ┅ ━━━━━━━━━ ┅ ━➔`
-let img = 'https://i.ibb.co/37FP2bk/donate.jpg'
-conn.sendButton(m.chat, don, 'Haga click en boton si quiere comprar o alquilar al bot', img, [['Buy Premium', `${usedPrefix}buyprem`]],m, rpyp)
+let img = 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg'
+conn.sendButton(m.chat, don, 'Xcoco Super Update', img, [['OWNER', `${usedPrefix}buyprem`]],m, rpyp)
 }
 
 handler.help = ['donate']
