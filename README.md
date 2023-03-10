@@ -32,7 +32,7 @@ En caso de duda, antes de instalar dylux-bot, pruebe el bot aquí
 ***
 
 #### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FG98F/dylux-fg)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mr-Katussa/dylux-fg)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
